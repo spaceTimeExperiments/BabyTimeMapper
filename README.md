@@ -2,6 +2,7 @@
 BabyTimeMapper is a program that is directly based off of [Timemapper](https://github.com/okfn/timemapper) by [okfn](https://github.com/okfn) (Open Knowledge Foundation) but updated to be stylized and run smoother with local based data input. 
 
 You can run this program through GitHub cloning or you can download the zipped directory if git clone isnt available to you. For those looking to use the GitHub based method, you can follow these steps to do so!
+
 ## To make your own timemaps: fork this repo!
 * Please fork the repo to your own GitHub account
 * Then working with your fork, use the `git clone`command (in the form of `git clone <Address of your fork>` to access the repo 
@@ -28,8 +29,13 @@ You can also download a .zip file if you cant clone the repo itself, the files c
 Make sure all future pushes are to your repo, **DO NOT** push anything to the original BabyTimeMapper repo!
 
 ## Installing Node.js
+
 First thing that everyone should do is install Node.js to their system. 
-The simplest installation will likely be this: Go to <https://nodejs.org/en/download/current> and download a prebuilt Node.js**. Carefully choose the version that best matches your computer operating system! 
+
+This is probably the simplest installation for ALL computers: 
+**Go to <https://nodejs.org/en/download/current> and download a prebuilt Node.js**. 
+Carefully choose the version that best matches your computer operating system! When this is complete, skip down to [## ALL versions: Check if your Node installation is successful](#all-versions-check-if-your-node-installation-is-successful) below.  
+
 
 ### Alternative Node installation instructions via Homebrew or Chocolatey
 #### Homebrew / shell instructionsFor MAC: 
