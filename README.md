@@ -28,8 +28,11 @@ You can also download a .zip file if you cant clone the repo itself, the files c
 Make sure all future pushes are to your repo, **DO NOT** push anything to the original BabyTimeMapper repo!
 
 ## Installing Node.js
-First thing that everyone should do is install Node.js to their system:
-### For MAC: 
+First thing that everyone should do is install Node.js to their system. 
+The simplest installation will likely be this: Go to <https://nodejs.org/en/download/current> and download a prebuilt Node.js**. Carefully choose the version that best matches your computer operating system! 
+
+### Alternative Node installation instructions via Homebrew or Chocolatey
+#### Homebrew / shell instructionsFor MAC: 
 
 * If your Mac is using the Silicon chip (M* series chips):
      *  Download and install Homebrew if not already installed
@@ -43,14 +46,8 @@ First thing that everyone should do is install Node.js to their system:
           * Look for the line that reads "Or get a prebuilt Node.js for..."
           * In the selection boxes, choose **macOS** running a **x64** architecture. 
 
-All Mac versions, when the installation is complete, open a new shell and...
-* Verify the Node.js version:
-```node -v # Should print "v24.18.0" or whatever the latest version is.```
 
-* Verify npm version:
-```npm -v # Should print "11.16.0" or whatever the latest version is.```
-
-### For Windows:
+#### Shell instructions for Windows:
 
 Download and install Chocolatey:
 ```powershell -c "irm https://community.chocolatey.org/install.ps1|iex"```
@@ -58,18 +55,22 @@ Download and install Chocolatey:
 Download and install Node.js:
 ```choco install nodejs --version="26.5.0"```
 
+## ALL versions: Check if your Node installation is successful
+
+Open a shell on your computer and do the following:
+
 Verify the Node.js version:
 ```node -v # Should print "v26.5.0".```
 
 Verify npm version:
 ```npm -v # Should print "11.17.0".```
 
-**You can also go to https://nodejs.org/en/download/current and download a prebuilt Node.js**
+
 
 ## Installing the node modules for BabyTimeMapper
 Once you have Node.js installed you'll need to install the node files needed to run the program.
 You must do the BabyTimeMapper installation in your local fork/copy of this repo. 
-**Navigate in your shell to your local fork of this BabyTimMapper repo.**
+**Navigate in your shell to your local fork of this BabyTimeMapper repo.**
 
 When you're in the correct location, to install what you need use this command:
 ```npm install```
