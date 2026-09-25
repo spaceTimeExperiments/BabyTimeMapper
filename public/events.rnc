@@ -10,6 +10,7 @@ year = element year {xsd:gYear}
 # year = element year {xsd:integer}
 monthPattern = xsd:int { minInclusive = "1" maxInclusive = "12" }
 dayPattern = xsd:int { minInclusive = "1" maxInclusive = "31" }
+# ebb: Above we are defining a facet pattern to be more restrictive than just all integers.
 month = element month {monthPattern}
 day = element day {dayPattern}
 era = element era {"AD" | "BC" | "ADE" | "BCE"}
