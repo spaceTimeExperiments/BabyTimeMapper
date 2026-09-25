@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <!--This is an example xml filled with random events, feel free to copy and paste your own events over these ones from the template!-->
+<?xml-model href="events.rnc" type="application/relax-ng-compact-syntax"?>
 <events>
  <track type="1" name="early">
   <event>
     <title>Julius Caesar invades Britain</title>
     <date type="start">
-      <year>80</year>
+      <year>0080</year>
       <era>BC</era>
     </date>
     <date type="end">
-      <year>54</year>
+      <year>0054</year>
       <era>BC</era>
     </date>
     <description>Julius Caesar led the first Roman expedition to Britain, landing on the Kent coast.</description>
@@ -20,12 +22,12 @@
   <event>
     <title>Battle of Actium</title>
     <date type="start">
-      <year>31</year>
+      <year>0031</year>
       <month>09</month>
       <era>BC</era>
     </date>
     <date type="end">
-    <year>10</year>
+    <year>0010</year>
     <month>07</month>
     <era>BC</era>
     </date>
@@ -44,8 +46,8 @@
       <day>14</day>
       <era>AD</era>
     </date>
-    <date type="end">
-    </date>
+<!--    <date type="end">
+    </date>-->
     <description>Parisian crowds stormed the Bastille fortress, marking the start of the French Revolution.</description>
     <lat>48.8533</lat>
     <lon>2.3692</lon>
@@ -60,8 +62,8 @@
       <day>26</day>
       <era>AD</era>
     </date>
-    <date type="end">
-    </date>
+  <!--  <date type="end">
+    </date>-->
     <description>The National Constituent Assembly adopted this foundational document of human rights.</description>
     <lat>48.8566</lat>
     <lon>2.3522</lon>
@@ -75,8 +77,8 @@
       <day>21</day>
       <era>AD</era>
     </date>
-    <date type="end">
-    </date>
+<!--    <date type="end">
+    </date>-->
     <description>King Louis XVI was guillotined at the Place de la Révolution in Paris.</description>
     <lat>48.8656</lat>
     <lon>2.3212</lon>

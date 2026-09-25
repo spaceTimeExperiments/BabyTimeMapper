@@ -1,0 +1,23 @@
+start = events
+events = element events {track+}
+track = element track {type, name, event+}
+type = attribute type {xsd:integer}
+name = attribute name {"myTheme1" | "myTheme2" | "myTheme3" | text}
+event = element event {title, date, date?, description, lat, lon, media? }
+title = element title {text}
+date = element date {attribute type {"start" | "end"}, year, month?, day?, era}
+year = element year {xsd:gYear}
+# year = element year {xsd:integer}
+monthPattern = xsd:int { minInclusive = "1" maxInclusive = "12" }
+dayPattern = xsd:int { minInclusive = "1" maxInclusive = "31" }
+month = element month {monthPattern}
+day = element day {dayPattern}
+era = element era {"AD" | "BC" | "ADE" | "BCE"}
+
+description = element description {text}
+lat = element lat {xsd:float}
+lon = element lon {xsd:float}
+media = element media {xsd:anyURI}
+
+
+
