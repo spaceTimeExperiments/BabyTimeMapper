@@ -1,15 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <!--This is an example xml filled with random events, feel free to copy and paste your own events over these ones from the template!-->
+<?xml-model href="events.rnc" type="application/relax-ng-compact-syntax"?>
 <events>
- <track type="1" name="early">
+ <track type="1" name="war">
+   <event>
+     <title>Dr. B Graduates College</title>
+     <date type="start">
+       <year>1993</year>
+       <month>05</month>
+       <era>AD</era>
+     </date>
+     <date type="end">
+       <year>1995</year>
+       <month>05</month>
+       <era>AD</era>
+     </date>
+     <description>Dr. B graduates from Washington and Jefferson College, and looks ahead to starting grad school at Penn State.</description>
+     <lat>40.174</lat><!-- POINT THESE to Washington, PA -->
+     <lon>-80.2462</lon>
+   </event>
+   <event>
+     <title>Dr. B works on something</title>
+     <date type="start">
+       <year>1990</year>
+       <month>05</month>
+       <era>AD</era>
+     </date>
+     <date type="end">
+       <year>2005</year>
+       <month>05</month>
+       <era>AD</era>
+     </date>
+     <description>Dr. B works on something that overlaps in time.</description>
+     <lat>42.174</lat><!-- POINT THESE to Washington, PA -->
+     <lon>-80.2462</lon>
+     
+     
+   </event>
+   
+   
   <event>
     <title>Julius Caesar invades Britain</title>
     <date type="start">
-      <year>80</year>
+      <year>0080</year>
       <era>BC</era>
     </date>
     <date type="end">
-      <year>54</year>
+      <year>0054</year>
       <era>BC</era>
     </date>
     <description>Julius Caesar led the first Roman expedition to Britain, landing on the Kent coast.</description>
@@ -20,12 +58,12 @@
   <event>
     <title>Battle of Actium</title>
     <date type="start">
-      <year>31</year>
+      <year>0031</year>
       <month>09</month>
       <era>BC</era>
     </date>
     <date type="end">
-    <year>10</year>
+    <year>0010</year>
     <month>07</month>
     <era>BC</era>
     </date>
@@ -44,8 +82,8 @@
       <day>14</day>
       <era>AD</era>
     </date>
-    <date type="end">
-    </date>
+<!--    <date type="end">
+    </date>-->
     <description>Parisian crowds stormed the Bastille fortress, marking the start of the French Revolution.</description>
     <lat>48.8533</lat>
     <lon>2.3692</lon>
@@ -60,8 +98,8 @@
       <day>26</day>
       <era>AD</era>
     </date>
-    <date type="end">
-    </date>
+  <!--  <date type="end">
+    </date>-->
     <description>The National Constituent Assembly adopted this foundational document of human rights.</description>
     <lat>48.8566</lat>
     <lon>2.3522</lon>
@@ -75,8 +113,8 @@
       <day>21</day>
       <era>AD</era>
     </date>
-    <date type="end">
-    </date>
+<!--    <date type="end">
+    </date>-->
     <description>King Louis XVI was guillotined at the Place de la Révolution in Paris.</description>
     <lat>48.8656</lat>
     <lon>2.3212</lon>
@@ -93,10 +131,11 @@
       <era>AD</era>
     </date>
     <date type="end">
-      <year>2000</year>
+      <year>1814</year>
       <era>AD</era>
     </date>
-    <description>Napoleon Bonaparte crowned himself Emperor of the French at Notre-Dame de Paris.</description>
+    <description>Napoleon Bonaparte crowned himself Emperor of the French at Notre-Dame de Paris.
+    His first reign as Emperor ends when he abdicates in 1814</description>
     <lat>48.8530</lat>
     <lon>2.3499</lon>
     <media>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/David_-_Napoleon_at_the_Saint-Bernard_Pass%2C_20_May_1800.jpg/480px-David_-_Napoleon_at_the_Saint-Bernard_Pass%2C_20_May_1800.jpg</media>
