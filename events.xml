@@ -3,7 +3,7 @@
 <!--This is an example xml filled with random events, feel free to copy and paste your own events over these ones from the template!-->
 <?xml-model href="events.rnc" type="application/relax-ng-compact-syntax"?>
 <events>
- <track type="1" name="war">
+ <track type="1" name="Dr. B">
    <event>
      <title>Dr. B Graduates College</title>
      <date type="start">
@@ -35,11 +35,24 @@
      <description>Dr. B works on something that overlaps in time.</description>
      <lat>42.174</lat><!-- POINT THESE to Washington, PA -->
      <lon>-80.2462</lon>
-     
-     
    </event>
-   
-   
+ </track>
+<track type="2" name="Roma"> 
+  <event>
+    <title>There is no Year Zero!</title>
+    <date type="start">
+      <year>0004</year>
+      <era>BC</era>
+    </date>
+    <date type="end">
+      <year>0004</year>
+      <era>AD</era>
+    </date>
+    <description>There is no Year 0 on an AD - BC timelin because the monks who came up with the AD and BC timeline concept were working with Roman numerals and did not have a concept of a 0.</description>
+    <lat>41.9026</lat>
+    <lon>12.4529</lon>
+    <media>https://www.livescience.com/45510-anno-domini.html</media>
+  </event>
   <event>
     <title>Julius Caesar invades Britain</title>
     <date type="start">
@@ -73,7 +86,7 @@
   </event>
   </track>
  
- <track type="2" name="mid">
+ <track type="3" name="France">
   <event>
     <title>Storming of the Bastille</title>
     <date type="start">
@@ -119,9 +132,7 @@
     <lat>48.8656</lat>
     <lon>2.3212</lon>
   </event>
- </track>
 
-<track type="3" name="late">
   <event>
     <title>Napoleon crowned Emperor</title>
     <date type="start">
