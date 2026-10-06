@@ -17,8 +17,9 @@
        <era>AD</era>
      </date>
      <description>Dr. B graduates from Washington and Jefferson College, and looks ahead to starting grad school at Penn State.</description>
-     <lat>40.174</lat><!-- POINT THESE to Washington, PA -->
+     <lat>40.174</lat>
      <lon>-80.2462</lon>
+     <media>https://www.washjeff.edu/wp-content/uploads/oldmain_2018_04-1.jpg</media>
    </event>
    <event>
      <title>Dr. B works on something</title>
@@ -33,7 +34,7 @@
        <era>AD</era>
      </date>
      <description>Dr. B works on something that overlaps in time.</description>
-     <lat>42.174</lat><!-- POINT THESE to Washington, PA -->
+     <lat>42.174</lat>
      <lon>-80.2462</lon>
    </event>
  </track>
