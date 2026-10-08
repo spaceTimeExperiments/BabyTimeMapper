@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This is a simple template that people will use to fill out their event info for BabyTimeMapper!-->
+<!--The month, day, and era sections are completely optional, if these areas of info are not available to you then dont worry about filling them out, you can just remove them-->
+<!--Events do not need to be in chronological order they will be sorted with a JS function-->
+<!--For event tracks please limit to 3 distinct tracks, ie. early events, recent events, future events. Please fill in the 'name=""' with whatever you want and correspond the correct track numder (1, 2, or 3) with the name, (ex. type="1" name="early events" and type="3" name="future events")-->
+<!--Each track can have multiple events!-->
+<events>
+  <track type="1" name="5 year span">
+    <event>
+      <title>Event 1</title>
+      <date type="start">
+        <year>1960</year>
+        <month>06</month> 
+        <day>30</day>
+        <era>AD</era>
+      </date>
+      <!-- <date type="end">
+        <year>1960</year>
+        <month>01</month> 
+        <day>01</day>
+        <era>AD</era>
+      </date> -->
+      <description>Test for length</description>
+      <lat>3</lat>
+      <lon>3</lon>
+      <media></media>
+    </event>
+    <event>
+      <title>Event 1.2</title>
+      <date type="start">
+        <year>2001</year>
+        <month>01</month> 
+        <day>16</day>
+        <era>AD</era>
+      </date>
+      <!-- <date type="end">
+           <year>1960</year>
+           <month>01</month> 
+           <day>01</day>
+           <era>AD</era>
+           </date> -->
+      <description>Test for length</description>
+      <lat>3</lat>
+      <lon>3</lon>
+      <media></media>
+    </event>
+  </track>
+  
+  <track type="2" name="10 year span">
+    <event>
+      <title>Event 2</title>
+      <date type="start">
+        <year>2019</year>
+        <month>01</month> 
+        <day>24</day>
+        <era>AD</era>
+      </date>
+      <!-- <date type="end">
+        <year>0030</year>
+        <month>01</month> 
+        <day>01</day>
+        <era>AD</era>
+      </date> -->
+      <description>Test for length</description>
+      <lat>3</lat>
+      <lon>3</lon>
+    </event>
+    <event>
+      <title>Event 2.2</title>
+      <date type="start">
+        <year>1997</year>
+        <month>05</month> 
+        <day>17</day>
+        <era>AD</era>
+      </date>
+      <!-- <date type="end">
+        <year>0030</year>
+        <month>01</month> 
+        <day>01</day>
+        <era>AD</era>
+      </date> -->
+      <description>Test for length</description>
+      <lat>3</lat>
+      <lon>3</lon>
+    </event>
+    <event>
+      <title>Event 2.3</title>
+      <date type="start">
+        <year>1965</year>
+        <month>11</month> 
+        <day>24</day>
+        <era>AD</era>
+      </date>
+      <!-- <date type="end">
+        <year>0030</year>
+        <month>01</month> 
+        <day>01</day>
+        <era>AD</era>
+      </date> -->
+      <description>Test for length</description>
+      <lat>3</lat>
+      <lon>3</lon>
+    </event>
+  </track>
+  
+  <!-- <track type="3" name="15 year span">
+    <event>
+      <title>Event 3</title>
+      <date type="start">
+        <year>0040</year>
+        <month>01</month> 
+        <day>01</day>
+        <era>AD</era>
+      </date>
+      <date type="end">
+        <year>0055</year>
+        <month>01</month> 
+        <day>01</day>
+        <era>AD</era>
+      </date>
+      <description>Test for length</description>
+      <lat>3</lat>
+      <lon>3</lon>
+    </event>
+  </track> -->
+</events> 

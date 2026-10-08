@@ -39,7 +39,7 @@
    </event>
  </track>
 <track type="2" name="Roma"> 
-  <event>
+  <!-- <event>
     <title>There is no Year Zero!</title>
     <date type="start">
       <year>0004</year>
@@ -53,16 +53,16 @@
     <lat>41.9026</lat>
     <lon>12.4529</lon>
     <media>https://www.livescience.com/45510-anno-domini.html</media>
-  </event>
+  </event> -->
   <event>
     <title>Julius Caesar invades Britain</title>
     <date type="start">
       <year>0080</year>
-      <era>BC</era>
+      <era>AD</era>
     </date>
     <date type="end">
       <year>0054</year>
-      <era>BC</era>
+      <era>AD</era>
     </date>
     <description>Julius Caesar led the first Roman expedition to Britain, landing on the Kent coast.</description>
     <lat>51.1789</lat>
@@ -74,12 +74,12 @@
     <date type="start">
       <year>0031</year>
       <month>09</month>
-      <era>BC</era>
+      <era>AD</era>
     </date>
     <date type="end">
     <year>0010</year>
     <month>07</month>
-    <era>BC</era>
+    <era>AD</era>
     </date>
     <description>Octavian defeated the combined forces of Mark Antony and Cleopatra, becoming Rome's first emperor.</description>
     <lat>38.9419</lat>
