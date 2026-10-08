@@ -3,154 +3,154 @@
 <!--This is an example xml filled with random events, feel free to copy and paste your own events over these ones from the template!-->
 <?xml-model href="events.rnc" type="application/relax-ng-compact-syntax"?>
 <events>
- <track type="1" name="Dr. B">
-   <event>
-     <title>Dr. B Graduates College</title>
-     <date type="start">
-       <year>1993</year>
-       <month>05</month>
-       <era>AD</era>
-     </date>
-     <date type="end">
-       <year>1995</year>
-       <month>05</month>
-       <era>AD</era>
-     </date>
-     <description>Dr. B graduates from Washington and Jefferson College, and looks ahead to starting grad school at Penn State.</description>
-     <lat>40.174</lat>
-     <lon>-80.2462</lon>
-     <media>https://www.washjeff.edu/wp-content/uploads/oldmain_2018_04-1.jpg</media>
-   </event>
-   <event>
-     <title>Dr. B works on something</title>
-     <date type="start">
-       <year>1990</year>
-       <month>05</month>
-       <era>AD</era>
-     </date>
-     <date type="end">
-       <year>2005</year>
-       <month>05</month>
-       <era>AD</era>
-     </date>
-     <description>Dr. B works on something that overlaps in time.</description>
-     <lat>42.174</lat>
-     <lon>-80.2462</lon>
-   </event>
- </track>
-<track type="2" name="Roma"> 
-  <!-- <event>
-    <title>There is no Year Zero!</title>
-    <date type="start">
-      <year>0004</year>
-      <era>BC</era>
-    </date>
-    <date type="end">
-      <year>0004</year>
-      <era>AD</era>
-    </date>
-    <description>There is no Year 0 on an AD - BC timeline because the monks who came up with the AD and BC timeline concept were working with Roman numerals and did not have a concept of a 0.</description>
-    <lat>41.9026</lat>
-    <lon>12.4529</lon>
-    <media>https://www.livescience.com/45510-anno-domini.html</media>
-  </event> -->
-  <event>
-    <title>Julius Caesar invades Britain</title>
-    <date type="start">
-      <year>0080</year>
-      <era>AD</era>
-    </date>
-    <date type="end">
-      <year>0054</year>
-      <era>AD</era>
-    </date>
-    <description>Julius Caesar led the first Roman expedition to Britain, landing on the Kent coast.</description>
-    <lat>51.1789</lat>
-    <lon>1.1713</lon>
-  </event>
-
-  <event>
-    <title>Battle of Actium</title>
-    <date type="start">
-      <year>0031</year>
-      <month>09</month>
-      <era>AD</era>
-    </date>
-    <date type="end">
-    <year>0010</year>
-    <month>07</month>
-    <era>AD</era>
-    </date>
-    <description>Octavian defeated the combined forces of Mark Antony and Cleopatra, becoming Rome's first emperor.</description>
-    <lat>38.9419</lat>
-    <lon>20.7400</lon>
-  </event>
+  <track type="1" name="Dr. B">
+    <event>
+      <title>Dr. B Graduates College</title>
+      <date type="start">
+        <year>1993</year>
+        <month>05</month>
+        <era>AD</era>
+      </date>
+      <date type="end">
+        <year>1995</year>
+        <month>05</month>
+        <era>AD</era>
+      </date>
+      <description>Dr. B graduates from Washington and Jefferson College, and looks ahead to starting grad school at Penn State.</description>
+      <lat>40.174</lat>
+      <lon>-80.2462</lon>
+      <media>https://www.washjeff.edu/wp-content/uploads/oldmain_2018_04-1.jpg</media>
+    </event>
+    <event>
+      <title>Dr. B works on something</title>
+      <date type="start">
+        <year>1990</year>
+        <month>05</month>
+        <era>AD</era>
+      </date>
+      <date type="end">
+        <year>2005</year>
+        <month>05</month>
+        <era>AD</era>
+      </date>
+      <description>Dr. B works on something that overlaps in time.</description>
+      <lat>42.174</lat>
+      <lon>-80.2462</lon>
+    </event>
   </track>
- 
- <track type="3" name="France">
-  <event>
-    <title>Storming of the Bastille</title>
-    <date type="start">
-      <year>1789</year>
-      <month>07</month>
-      <day>14</day>
-      <era>AD</era>
-    </date>
-<!--    <date type="end">
-    </date>-->
-    <description>Parisian crowds stormed the Bastille fortress, marking the start of the French Revolution.</description>
-    <lat>48.8533</lat>
-    <lon>2.3692</lon>
-    <media>https://www.historyhit.com/1789-storming-bastille/</media>
-  </event>
- 
-  <event>
-    <title>Declaration of the Rights of Man</title>
-    <date type="start">
-      <year>1789</year>
-      <month>08</month>
-      <day>26</day>
-      <era>AD</era>
-    </date>
-  <!--  <date type="end">
-    </date>-->
-    <description>The National Constituent Assembly adopted this foundational document of human rights.</description>
-    <lat>48.8566</lat>
-    <lon>2.3522</lon>
-  </event>
- 
-  <event>
-    <title>Execution of Louis XVI</title>
-    <date type="start">
-      <year>1793</year>
-      <month>01</month>
-      <day>21</day>
-      <era>AD</era>
-    </date>
-<!--    <date type="end">
-    </date>-->
-    <description>King Louis XVI was guillotined at the Place de la Révolution in Paris.</description>
-    <lat>48.8656</lat>
-    <lon>2.3212</lon>
-  </event>
-
-  <event>
-    <title>Napoleon crowned Emperor</title>
-    <date type="start">
-      <year>1804</year>
-      <month>12</month>
-      <day>02</day>
-      <era>AD</era>
-    </date>
-    <date type="end">
-      <year>1814</year>
-      <era>AD</era>
-    </date>
-    <description>Napoleon Bonaparte crowned himself Emperor of the French at Notre-Dame de Paris.
-    His first reign as Emperor ends when he abdicates in 1814</description>
-    <lat>48.8530</lat>
-    <lon>2.3499</lon>
-    <media>https://shannonselin.com/2016/12/coronation-of-napoleon/</media>
-  </event>
- </track>
+  <track type="2" name="Roma"> 
+    <event>
+      <title>There is no Year Zero!</title>
+      <date type="start">
+        <year>0004</year>
+        <era>BC</era>
+      </date>
+      <date type="end">
+        <year>0004</year>
+        <era>AD</era>
+      </date>
+      <description>There is no Year 0 on an AD - BC timeline because the monks who came up with the AD and BC timeline concept were working with Roman numerals and did not have a concept of a 0.</description>
+      <lat>41.9026</lat>
+      <lon>12.4529</lon>
+      <media>https://www.livescience.com/45510-anno-domini.html</media>
+    </event>
+    <event>
+      <title>Julius Caesar invades Britain</title>
+      <date type="start">
+        <year>0080</year>
+        <era>BC</era>
+      </date>
+      <date type="end">
+        <year>0054</year>
+        <era>BC</era>
+      </date>
+      <description>Julius Caesar led the first Roman expedition to Britain, landing on the Kent coast.</description>
+      <lat>51.1789</lat>
+      <lon>1.1713</lon>
+    </event>
+    
+    <event>
+      <title>Battle of Actium</title>
+      <date type="start">
+        <year>0031</year>
+        <month>09</month>
+        <era>BC</era>
+      </date>
+      <date type="end">
+        <year>0010</year>
+        <month>07</month>
+        <era>BC</era>
+      </date>
+      <description>Octavian defeated the combined forces of Mark Antony and Cleopatra, becoming Rome's first emperor.</description>
+      <lat>38.9419</lat>
+      <lon>20.7400</lon>
+    </event>
+  </track>
+  
+  <track type="3" name="France">
+    <event>
+      <title>Storming of the Bastille</title>
+      <date type="start">
+        <year>1789</year>
+        <month>07</month>
+        <day>14</day>
+        <era>AD</era>
+      </date>
+      <!--    <date type="end">
+           </date>-->
+      <description>Parisian crowds stormed the Bastille fortress, marking the start of the French Revolution.</description>
+      <lat>48.8533</lat>
+      <lon>2.3692</lon>
+      <media>https://www.historyhit.com/1789-storming-bastille/</media>
+    </event>
+    
+    <event>
+      <title>Declaration of the Rights of Man</title>
+      <date type="start">
+        <year>1789</year>
+        <month>08</month>
+        <day>26</day>
+        <era>AD</era>
+      </date>
+      <!--  <date type="end">
+           </date>-->
+      <description>The National Constituent Assembly adopted this foundational document of human rights.</description>
+      <lat>48.8566</lat>
+      <lon>2.3522</lon>
+    </event>
+    
+    <event>
+      <title>Execution of Louis XVI</title>
+      <date type="start">
+        <year>1793</year>
+        <month>01</month>
+        <day>21</day>
+        <era>AD</era>
+      </date>
+      <!--    <date type="end">
+           </date>-->
+      <description>King Louis XVI was guillotined at the Place de la Révolution in Paris.</description>
+      <lat>48.8656</lat>
+      <lon>2.3212</lon>
+    </event>
+    
+    <event>
+      <title>Napoleon crowned Emperor</title>
+      <date type="start">
+        <year>1804</year>
+        <month>12</month>
+        <day>02</day>
+        <era>AD</era>
+      </date>
+      <date type="end">
+        <year>1814</year>
+        <era>AD</era>
+      </date>
+      <description>Napoleon Bonaparte crowned himself Emperor of the French at Notre-Dame de Paris.
+        His first reign as Emperor ends when he abdicates in 1814</description>
+      <lat>48.8530</lat>
+      <lon>2.3499</lon>
+      <media>https://shannonselin.com/2016/12/coronation-of-napoleon/</media>
+    </event>
+  </track>
 </events>
